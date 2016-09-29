@@ -34,7 +34,5 @@ gencsv: default
 plot: result_clock_gettime.csv
 	gnuplot clocktime.gp
 
-
-
 clean:
 	rm -f $(EXECUTABLE) *.o *.s result_clock_gettime.csv
